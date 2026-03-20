@@ -71,4 +71,4 @@ callbacks_list = [acc_checkpoint, loss_checkpoint]
 hist = model.fit(x_train, y_train, epochs=10, validation_data=(x_val, y_val), batch_size=32, callbacks=callbacks_list)
 
 with open('dir../second/hist', 'wb') as file_pi:
-    pickle.dump(hist.history, file_pi)
+    pickle.dump(hist.history, file_pi)
