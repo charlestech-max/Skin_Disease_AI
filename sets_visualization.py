@@ -56,4 +56,4 @@ sns.set_theme(style="whitegrid")
 ax = sns.barplot(x=lst_type, y=lst_count, hue=lst_lbl)
 for i in ax.containers:
     ax.bar_label(i,)
-plt.show()
+plt.show()
