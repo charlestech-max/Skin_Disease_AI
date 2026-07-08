@@ -68,4 +68,4 @@ for i in range(6):
     print(f'{types[i]} - {((cm[i][i] / sum(cm[i])) * 100):.2f}%')
 
 print("\nclassification_report: \n" + str(classification_report(y_test, test_pred)))
-
+
