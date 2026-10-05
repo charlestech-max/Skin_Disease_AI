@@ -31,4 +31,4 @@ for i in tqdm(img_path):
         print("Top %d ====================" % (j + 1))
         print(class_name + ": %.2f%%" % (prob))
 
-    print("\n")
+    print("\n")
